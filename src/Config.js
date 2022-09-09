@@ -1,14 +1,7 @@
-// export const config = {
-//   appId: "43a20526-ceea-410f-8f59-2f9df7c22c0b",
-//   redirectUri: "http://localhost:3000",
-//   scopes: ["user.read"],
-//   authority:
-//     "https://login.microsoftonline.com/commom/oauth2/v2.0/authorize?client_id=43a20526-ceea-410f-8f59-2f9df7c22c0b&response_type=code&redirecturi=http://localhost:3000",
-// };
 export const msalConfig = {
   auth: {
-    clientId: "-- client id here",
-    client_secret: "-- client secret here ---",
+    clientId: "43a20526-ceea-410f-8f59-2f9df7c22c0b",
+    client_secret: "uOD8Q~g-~ANY3Mc0nnfdy~F0goq3MAOhl0B31cHZ",
     authority: "https://login.microsoftonline.com/common", // This is a URL (e.g. https://login.microsoftonline.com/{your tenant ID})
     redirectUri: "http://localhost:3000",
   },
